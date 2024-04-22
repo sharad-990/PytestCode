@@ -1,2 +1,3 @@
 HomePage:
-  InputBoxGoogle: '//input[@type="email"]'
+  InputEmailBox: "//input[contains(@placeholder,'%s')]"
+  NextButton: "//input[@type='submit']"
