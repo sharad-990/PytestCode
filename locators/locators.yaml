@@ -1,3 +1,9 @@
 HomePage:
   InputEmailBox: "//input[contains(@placeholder,'%s')]"
   NextButton: "//input[@type='submit']"
+  NewMail: "//span[text()='New mail']"
+  MailTo: "//div[@aria-label='To']"
+  CcTo: "//div[@aria-label='Cc']"
+  MailSubject: "//input[@placeholder='Add a subject']"
+  MailTextBox: "//div[@role='textbox']"
+  MailSendButton: "//span[text()='Send']"
