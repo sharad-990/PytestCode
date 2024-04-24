@@ -42,6 +42,7 @@ def test_login_Outlook(driver, getValue, excel_data):
     # for i in range(len(excel_data)-1):
     driver.find_element_by_xpath(locators["HomePage"]["MailTextBox"]).send_keys(excel_data)
         # print(excel_data[i].__str__)
+    driver.execute_script("scroll(0, -250);")
     driver.find_element_by_xpath(locators["HomePage"]["MailSendButton"]).click()
     time.sleep(5)
 
